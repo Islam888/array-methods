@@ -6,35 +6,32 @@
 //chainable
 
 //syntax:
-const arr = [1, 2, 3];
-const newArr = arr.map(function(element, index, array){
+let arr = [1, 2, 3];
+let newArr = arr.map(function(element, index, array){
     return element //index //array
 }) 
 
 console.log(newArr)
 
-const arr = [1, 2, 3];
-const newArr = arr.map(function(elem){
+newArr = arr.map(function(elem){
     return elem * 2
 }); // [2, 4, 6]
 
-
-
-
-
-
+console.log(newArr)
 
 //with arrow function 
-/* const arr = [1, 2, 3];
-const newArr = arr.map(elem => elem * 2);// [2, 4, 6] */
-
+newArr = arr.map(elem => elem * 2);// [2, 4, 6]
+console.log(newArr)
 //
-/* const arr = [
+arr = [
     {name: "Islam", age: 30},
     {name: "Ahmed", age: 28},
     {name: "Ali", age: 33},
     {name: "Ahmed", age: 26}
 ]
-arr.map(elem => elem.name) // ["Islam", "Ahmed", "Ali"]
-arr.map(elem => elem.age) // [30, 28, 33] */
 
+newArr = arr.map(elem => elem.name)
+console.log(newArr) // ["Islam", "Ahmed", "Ali"]
+newArr = arr.map(elem => elem.age) 
+console.log(newArr) // [30, 28, 3
+console.log(newArr)
