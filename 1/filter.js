@@ -17,7 +17,7 @@ const arr = [1, 2, 3];
 const newArr = arr.filter(elem => elem < 3); // [1, 2]
 
 //
-const arr = [
+let arr = [
     {name: "Islam", age: 30},
     {name: "Ahmed", age: 28},
     {name: "Ali", age: 33},
