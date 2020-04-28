@@ -34,4 +34,3 @@ newArr = arr.map(elem => elem.name)
 console.log(newArr) // ["Islam", "Ahmed", "Ali"]
 newArr = arr.map(elem => elem.age) 
 console.log(newArr) // [30, 28, 3
-console.log(newArr)
