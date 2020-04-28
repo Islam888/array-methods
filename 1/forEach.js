@@ -10,7 +10,7 @@ arr.forEach(function(element, index, array){
 })
 
 //
-const arr = [1, 2, 3];
+let arr = [1, 2, 3];
 let newArr = []
 arr.forEach(function(elem){
     if (elem < 3) {
@@ -20,14 +20,14 @@ arr.forEach(function(elem){
 console.log(newArr) //make the same with filter
 
 //
-const arr = [
+arr = [
     {name: "Islam", age: 30},
     {name: "Ahmed", age: 28},
     {name: "Ali", age: 33},
     {name: "Ahmed", age: 26}
 ]
 
-let newArr = []
+newArr = []
 arr.forEach(elem => {
     if (elem.name === "Ahmed") {
         newArr.push(elem)
@@ -35,7 +35,7 @@ arr.forEach(elem => {
 }) //same with filter
 console.log(newArr)
 //
-let newArr = []
+newArr = []
 arr.forEach(elem => { 
     if (elem.age >= 30) {
         newArr.push(elem)
