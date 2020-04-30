@@ -17,12 +17,15 @@ result = arr.every(elem => elem < 3)
 
 console.log(result) //false
 
-arr = [
-    {name: "Islam", age: 30},
-    {name: "Ahmed", age: 28},
-    {name: "Ali", age: 33},
-    {name: "Ahmed", age: 26}
+let todos = [
+    {todo: "clean room", done: true},
+    {todo: "finish task", done: true},
+    {todo: "send email", done: false}
 ]
 
-result = arr.every(elem => elem.age < 30)
+result = arr.some(todo => todo.done === true)
 console.log(result) //false
+
+arr = []
+result = arr.every(elem => elem === true) 
+console.log(result) //true
