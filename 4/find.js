@@ -5,14 +5,17 @@
 //does not change (mutate) the original array
 
 //Syntax:
-const arr = [1, 2, 3]
+let arr = [1, 2, 3, 4]
 let result = arr.find(function(element, index, array) {
-    return element === 2 //or index === 2
+    return element > 2 
 })
 
-console.log(result) //2
+console.log(result) //3
 
 /////////////////////////////
 
 result = arr.find(elem => elem === 5)
 console.log(result) //undefined
+
+result = arr.find(elem => elem < 4 && elem > 1)
+console.log(result) //2
