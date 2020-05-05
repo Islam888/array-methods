@@ -3,7 +3,7 @@
 //changes (mutates) the original array. 
 
 //Syntax:
-const arr = [1,2,3]
+let arr = [1,2,3]
 let newLength = arr.unshift(4)
 
 console.log(arr) // [4,1,2,3]
