@@ -4,7 +4,7 @@
 //in case of empty array, it returns undefined.
 
 //Syntax:
-const arr = [1,2,3]
+let arr = [1,2,3]
 
 let removedElem = arr.shift() 
 console.log(arr) //[2,3]

@@ -4,9 +4,9 @@
 //in case of empty array, it returns undefined.
 
 //Syntax:
-const arr = [1,2,3]
+let arr = [1,2,3]
 
-let removedElem = arr.pop() 
+let removedElem = arr.pop()
 console.log(arr) //[1,2]
 console.log(removedElem) //3
 
